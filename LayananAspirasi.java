@@ -13,7 +13,7 @@ public class LayananAspirasi extends Aspirasi {
 
     @Override
     public void tentangAspirasi() {
-        if (deskripsi != null && !deskripsi.isEmpty()) {
+        if (!deskripsi.isEmpty()) {
             System.out.println("Aspirasi Anda Diterima");
         } else {
             System.out.println("Aspirasi Anda Ditolak");
